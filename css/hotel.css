@@ -1,0 +1,290 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html,body{
+    font-family: 'Segoe UI', tahoma, Geneva, verdana, sans-serif ;
+    line-height: 1.7em;
+}
+
+a{
+    color: rgb(49, 36, 36);
+    text-decoration: none;
+}
+
+h1,h2,h3{
+padding-bottom: 20px;
+
+}
+
+p{
+    margin: 10px 0;
+}
+
+.container{
+margin: auto ;
+max-width: 1100px;
+overflow:auto;
+padding: 0 20px;
+
+}
+
+
+.text-primary{
+color: #ff3c01;
+
+}
+
+.lead{
+font-size: 20px;
+
+}
+
+.btn{
+display: inline-block;
+font-size: 18px;
+color: #fff;
+background: #333;
+padding: 13px 20px;
+border: none;
+cursor: pointer;
+}
+
+.btn:hover{
+background:#ff3c01 ;
+color: #333;
+
+}
+
+.btn-branquinho{
+background: #f4f4f4;
+color: #333;
+}
+
+.bg-dark{
+background: #000000;
+color: #fff;
+
+}
+
+.bg-light{
+background: #1b1b1b;
+color: #fff;
+    
+}
+
+.bg-primary{
+
+    color: #333;
+ background:#ff3c01;
+ }
+
+ .clr{
+    clear: both;
+   }
+
+.l-heading{
+font-size: 40px;
+
+}
+
+
+.py-1 { padding: 10px 0;}
+.py-2 { padding: 20px 0;}
+.py-3 { padding: 30px 0;}
+ 
+#navbar{
+background:#000000 ;
+color: #fff;
+overflow: auto;
+
+}
+
+#navbar a{
+    color: #fff;
+}
+
+#navbar h1{
+float: left;
+padding-top: 20px;
+
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+float: left;
+}
+
+#navbar ul li a {
+display: block;
+padding: 20px;
+text-align: center;
+
+}
+
+#navbar ul li  a:hover {
+background: #080808;
+color: rgb(245, 62, 62);
+}
+
+#telinha{
+background: url('../img/14238336-quarto-de-hotel-escuro-com-lampada-amarela-gratis-foto.jpg') no-repeat
+center center/cover;
+height: 600px;
+}
+
+#telinha .telinha-content{
+color: #fff;
+text-align: center;
+padding-top: 170px;
+
+}
+
+#telinha .telinha-content h1{
+font-size: 60px;
+line-height: 1.2em;
+
+}
+
+#telinha .telinha-content p{
+padding-bottom: 20px;
+line-height: 1.7em;
+
+}
+
+#info-layout{
+height: 400px;
+
+}
+
+#info-layout .info-img{
+
+float: left;
+width: 50%;
+background: url(https://images.trvl-media.com/lodging/10000000/9060000/9056000/9055906/d9134afc.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill) no-repeat;
+min-height: 100%;
+
+}
+
+#info-layout .info-content{
+float: right;
+width: 50%;
+height: 100%;
+text-align: center;
+padding: 50px 30px;
+overflow: hidden;
+
+}
+
+#info-layout .info-content p{
+padding-bottom: 30px;
+
+}
+
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i{
+margin-bottom: 10px ;
+font-size: 40px;
+
+}
+
+#sobre-info .info-direita{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#sobre-info .info-direita img{
+display: block;
+margin: auto;
+width: 70%;
+border-radius: 50%;
+
+}
+
+#sobre-info .info-esquerda{
+float: left;
+width: 50%;
+min-height: 100%;
+
+}
+
+#perfis{
+height: 600px;
+background: url('../img/14238331-quarto-de-hotel-escuro-com-lampada-amarela-gratis-foto.jpg') no-repeat center center/cover;
+padding-top: 100px;
+}
+
+#perfis h2{
+color: #fff;
+text-align: center;
+padding-bottom: 40px;
+
+}
+
+#perfis .perfis{
+
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+#perfis .perfis img{
+
+    width: 80px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+
+
+#rodapezinho{
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px; 
+}
+
+#contato-form .form-group{
+margin-bottom: 20px;
+
+}
+
+#contato-form label{
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+#contato-form input, #contato-form textarea{
+width:100% ;
+padding: 10px;
+border: 1px #ddd solid;
+
+}
+
+#contato-form textarea{
+height: 200px;
+
+}
+
+#contato-form input:focus, #contato-form textarea:focus {
+outline: none;
+border-color: #ff3c01;
+
+}
+

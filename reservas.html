@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reservas.css">
+    <title>Hotel Cygnus - Sistema de Reservas</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a
+                href="index.html">CYGNUS</a></h1>
+
+                <UL>
+            <LI><a href="index.html">Home</a></LI>
+            <LI><a 
+                 href="sobre.html">Sobre</a></LI>
+            
+            <LI><a class="logo" href="reservas.html">Reservas</a></LI>
+               
+                </UL>
+            </div>  
+        </nav>
+ </header>
+ <main class="container">
+    <section class="search-section">
+        <h2>Buscar Quartos Disponíveis</h2>
+        <form class="search-form" id="searchForm">
+            <div class="form-group">
+                <label for="checkin">Check-in:</label>
+                <input type="date" id="checkin" name="checkin" required>
+            </div>
+            <div class="form-group">
+                <label for="checkout">Check-out:</label>
+                <input type="date" id="checkout" name="checkout" required>
+            </div>
+            <div class="form-group">
+                <label for="guests">Número de Hóspedes:</label>
+                <input type="number" id="guests" name="guests" min="1" max="10" required>
+            </div>
+            <button type="submit" class="search-btn">Buscar</button>
+        </form>
+    </section>
+
+    <section class="room-list-section">
+        <h2>Quartos Disponíveis</h2>
+        <div class="room-list"></div>
+    </section>
+
+    <div class="modal" id="bookingModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Confirmar Reserva</h2>
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label for="fullName">Nome Completo:</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Seu Nome Completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                    <small class="error-message" id="emailError" style="display:none;">Email inválido</small>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(xx) xxxxx-xxxx" required>
+                    <small class="error-message" id="phoneError" style="display:none;">Telefone inválido</small>
+                </div>
+                <div class="form-group">
+                    <label for="specialRequests">Pedidos Especiais:</label>
+                    <textarea id="specialRequests" name="specialRequests" rows="3" placeholder="Ex: Preciso de um berço, alergias, etc."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="totalCost">Custo Total: R$<span id="totalCost">0.00</span></label>
+                </div>
+                <button type="button" id="confirmBookingBtn" class="confirm-btn">Confirmar Reserva</button>
+                <p id="modalMessage"></p>
+            </form>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>HOTEL CYGNUS &copy; 2024, Todos os direitos estão reservados.</p>
+</footer>
+
+<script type="module" src="reserva.js"></script>
+</body>
+</html>
+
+
+
+
+
+   
+ 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/hotel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>HOTEL/ CYGNUS</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a
+                href="index.html">CYGNUS</a></h1>
+
+                <UL>
+            <LI><a href="index.html">Home</a></LI>
+            <LI><a 
+                 href="sobre.html">Sobre</a></LI>
+            <LI><a class="logo"href="contato.html">Contato</a></LI>
+            <LI><a href="reservas.html">Reservas</a></LI>
+               
+                </UL>
+            </div>  
+        </nav>
+ </header>
+ <section id="contato-form" class="py-3">
+    <div class="container">
+        <h1 class="l-heading"><span class="text-primary">Contate</span>-nos</h1>
+   <p>Por favor preencha o formulário abaixo para entrar em contato </p>
+<form action="process.php">
+<div class="form-group">
+    <label for="name">Nome</label>
+    <input type="text" name="name" id="name">
+</div>
+<div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+</div>
+<div class="form-group">
+<label for="message">Mensagem</label>
+    <textarea name="message" id="message"></textarea>
+</div>
+<button type="submit" class="btn">Enviar</button>
+</form>
+ </div>
+ </section>
+ <section id="contato-info" class="bg-dark">
+    <div class="container">
+        <div class="box">
+            <i class="bi bi-geo-alt-fill"></i>
+            <h3>localização</h3>
+            <p>Av. Dois Rios, 222-240 - Ibura, Recife - PE, 51230-000</p>
+        </div>
+        <div class="box">
+            <i class="bi bi-telephone-fill"></i>
+            <h3>Telefone</h3>
+            <p>+55 81 9754-9190</p>
+        </div>
+        <div class="box">
+            <i class="bi bi-envelope-at-fill"></i>
+            <h3>Email</h3>
+            <p>CygnusSESIinformática@gmail.com</p>
+        </div>
+    </div>
+ </section>
+ 
+    
+
+<footer id="rodapezinho">
+<p> HOTEL CYGNUS &copy; 2024, Todos os direitos estão reservados.</p>
+
+</footer>
+
+</body>
+</html>
